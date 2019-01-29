@@ -6,6 +6,6 @@ a=("https://www.youtube.com/watch?v=U39tdiKiaUQ","https://www.youtube.com/watch?
 i=1
 print("The Break Starts at :"+time.ctime())
 while(i<=3):	
-	time.sleep(10)
+	time.sleep(2*60*60)
 	webbrowser.open(random.choice(a))
 	i +=1
